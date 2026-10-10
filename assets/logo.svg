@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">HealthShare</title>
+  <desc id="desc">An open green heart with an upward sharing arrow and a rounded tray.</desc>
+  <style>
+    .ink { stroke: #17231d; }
+    .heart { stroke: #14834f; }
+    @media (prefers-color-scheme: dark) {
+      .ink { stroke: #f5f8f6; }
+      .heart { stroke: #59d995; }
+    }
+  </style>
+  <g stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path class="ink" d="M24 40h-4a8 8 0 0 0-8 8v58a10 10 0 0 0 10 10h84a10 10 0 0 0 10-10V48a8 8 0 0 0-8-8h-4"/>
+    <path class="heart" d="M48 54C38 43 28 53 36 66C43 76 54 85 64 94C74 85 85 76 92 66C100 53 90 43 80 54"/>
+    <path class="ink" d="M64 70V12M45 31l19-19 19 19"/>
+  </g>
+</svg>
